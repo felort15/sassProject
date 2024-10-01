@@ -2,8 +2,11 @@ $primary-color: #FFEFE7;
 $secondary-color: #FFDAC6;
 $tertiary-color: #babd8d;
 $primary-text-color: #7C6A0A;
-$font-stack: 'IBM Plex Sans',sans-serif;
+$font-stack: 'IBM Plex Sans',sans-serif;;
 
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: red;
 }
