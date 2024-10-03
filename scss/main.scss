@@ -5,16 +5,28 @@ $primary-text-color: #7C6A0A;
 $font-stack: 'IBM Plex Sans',sans-serif;;
 
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: $primary-color;
     font-family: $font-stack;
     
 }
 nav {
-    background-color: $primary-color;
     width: 100%;
     height: 100px;
+    p{
+        font-size: 2rem;
+        padding: 30px;
+       
+    }
+    .icons{
+        display: flex;
+        button {
+            background: none;
+                border-style: none;
+            }
+    }
+      
 }
 footer {
     $backgruond: #fa9500;
