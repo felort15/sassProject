@@ -18,7 +18,7 @@ body {
     nav {
             color: $primary-text-color;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             padding: 1rem;
             width: 100%;
@@ -50,9 +50,11 @@ article{
     padding-left: 45px;
     padding-right: 45px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     .impact-section {
-            display: flex;flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            padding-top: 50px;
             column-gap: 35px ;
         }
     h1{
@@ -69,10 +71,42 @@ article{
         color:white;font-size: 1em ;
     }
         img {
-            width: 25vw;
+            width: 20vw;
             height: 55vh;
             border-radius: 15px;
+            padding-top: 5px;
+            justify-content: center;
+
         }
+ }
+ section{
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    padding: 60px;
+    h2 {
+        color:$primary-text-color;
+        font-size: 1.5em;
+    }
+    .healtcare {
+        h2{
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+        .product-card {
+            width: 15vw;
+            height: 20px;
+            background-color: $secondary-color;
+            color:$primary-text-color;
+            padding: 20px;
+            border-radius: px;
+            .product-image{
+                width: 20px;
+                       
+            }
+
+        }
+    }
  }
 
 
