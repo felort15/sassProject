@@ -67,14 +67,55 @@ article img {
   justify-content: center;
 }
 
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 1.5em;
+}
+section .health-care h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .health-care .card-section {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+section .health-care .card-section .product-card {
+  width: 22vh;
+  height: auto;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+section .health-care .card-section .product-card .product-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .health-care .card-section .product-card .product-image img {
+  width: 16vw;
+  height: 20vw;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .health-care .card-section h3 {
+  font-size: 1.2em;
+}
+
 footer {
+  color: #7C6A0A;
   background-color: #fa9500;
   width: 100%;
   height: 250px;
-  padding-left: 20px;
-}
-footer social-media {
-  display: flex;
-  justify-content: right;
-  gap: 10 px;
+  padding-left: 40px;
 }/*# sourceMappingURL=main.css.map */
