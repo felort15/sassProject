@@ -6,9 +6,6 @@ $primary-text-color: #7C6A0A;
 $font-stack: 'IBM Plex Sans', sans-serif;
 $paragraph-size:1em;
 
-
-
-
 body {
     box-sizing: border-box;
     margin: 0;
@@ -46,9 +43,10 @@ article{
     width: auto;
     background-color: $primary-color;
     color: $primary-text-color;
-    background-color:white;
     padding-left: 45px;
     padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     display: flex;
     justify-content: space-evenly;
     .impact-section {
@@ -56,7 +54,7 @@ article{
             flex-direction: column;
             padding-top: 50px;
             column-gap: 35px ;
-        }
+     }
     h1{
        font-size: 2em;
     }
@@ -72,7 +70,7 @@ article{
     }
         img {
             width: 20vw;
-            height: 55vh;
+            height: 65vh;
             border-radius: 15px;
             padding-top: 5px;
             justify-content: center;
@@ -82,37 +80,29 @@ article{
  section{
     width: 100%;
     height: auto;
-    background-color: pink;
-    padding: 60px;
-    h2 {
-        color:$primary-text-color;
-        font-size: 1.5em;
-    }
-    .healtcare {
-        h2{
-            font-weight: 300;
-            padding-bottom: 60px;
-        }
-        .product-card {
-            width: 15vw;
-            height: 20px;
-            background-color: $secondary-color;
-            color:$primary-text-color;
-            padding: 20px;
-            border-radius: px;
-            .product-image{
-                width: 20px;
-                       
-            }
-
-        }
-    }
+    background-color:pink;
  }
 
 
-footer {
-    $backgruond: #fa9500;
-    background-color: $backgruond;
-    width: 100%;
-    height: 250px;
+ footer {
+     $backgruond: #fa9500;
+     color: $primary-text-color;
+     background-color: $backgruond;
+     width: 100%;
+     height: 250px;
+     padding-left: 20px ;
+
+}
+ 
+       
+        
+            
+                       
+            
+
+        
+    
+ 
+
+
 }

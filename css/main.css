@@ -31,9 +31,10 @@ article {
   width: auto;
   background-color: #FFEFE7;
   color: #7C6A0A;
-  background-color: white;
   padding-left: 45px;
   padding-right: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -60,40 +61,20 @@ article button {
 }
 article img {
   width: 20vw;
-  height: 55vh;
+  height: 65vh;
   border-radius: 15px;
   padding-top: 5px;
   justify-content: center;
-}
-
-section {
-  width: 100%;
-  height: auto;
-  background-color: pink;
-  padding: 60px;
-}
-section h2 {
-  color: #7C6A0A;
-  font-size: 1.5em;
-}
-section .healtcare h2 {
-  font-weight: 300;
-  padding-bottom: 60px;
-}
-section .healtcare .product-card {
-  width: 15vw;
-  height: 20px;
-  background-color: #FFDAC6;
-  color: #7C6A0A;
-  padding: 20px;
-  border-radius: px;
-}
-section .healtcare .product-card .product-image {
-  width: 20px;
 }
 
 footer {
   background-color: #fa9500;
   width: 100%;
   height: 250px;
+  padding-left: 20px;
+}
+footer social-media {
+  display: flex;
+  justify-content: right;
+  gap: 10 px;
 }/*# sourceMappingURL=main.css.map */
