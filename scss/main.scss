@@ -91,11 +91,11 @@ h2 {
         padding-bottom: 60px;   
     }
     .card-section{
-        display: flex;
+        display:block;
         width: auto;
         height: auto;
         .product-card {
-                width: 22vh;
+                width: 150px;
                 height: auto;
                 background-color: $secondary-color;
                 color: $primary-text-color;
