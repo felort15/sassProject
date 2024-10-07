@@ -125,10 +125,28 @@ section .card-section .product-image img {
   color: white;
 }
 
+.gallery {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery img {
+  width: 20vh;
+  height: 20vh;
+}
+
 footer {
   color: #7C6A0A;
   background-color: #fa9500;
   width: 100%;
   height: 250px;
   padding-left: 40px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
