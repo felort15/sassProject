@@ -38,13 +38,6 @@ article {
   display: flex;
   justify-content: space-evenly;
 }
-article .impact-section {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  -moz-column-gap: 35px;
-       column-gap: 35px;
-}
 article h1 {
   font-size: 2em;
 }
@@ -75,41 +68,61 @@ section {
 section h2 {
   color: #7C6A0A;
   font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
-section .health-care h2 {
+section .health-care h2, section .furniture h2 {
   font-weight: 300;
+  padding-left: 60px;
   padding-bottom: 60px;
 }
-section .health-care .card-section {
+section .card-section {
   display: flex;
   width: auto;
   height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+  row-gap: 80px;
 }
-section .health-care .card-section .product-card {
-  width: 22vh;
+section .card-section .product-card {
+  width: 40vh;
   height: auto;
   background-color: #FFDAC6;
   color: #7C6A0A;
-  padding-left: 25px;
-  padding-bottom: 10px;
-  border-radius: 8px;
+  padding: 20px;
+  border-radius: 10px;
 }
-section .health-care .card-section .product-card .product-image {
+section .card-section .icon {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+section .card-section .icon svg {
+  width: 28px;
+  height: 28px;
+}
+section .card-section .product-image {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .health-care .card-section .product-card .product-image img {
-  width: 16vw;
-  height: 20vw;
-  border-radius: 5px;
+section .card-section .product-image img {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-section .health-care .card-section h3 {
-  font-size: 1.2em;
+
+.furniture .product-card {
+  background-color: #fa9500;
+  color: white;
 }
 
 footer {
