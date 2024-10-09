@@ -185,16 +185,21 @@ section{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
+                padding-bottom: 60px;
                 gap: 30px;
                 color: #E86424
             }
             .image-container{
                 display: flex;
+                justify-content: space-evenly;
                 width: 100%;
                 flex-wrap: wrap;
-                justify-content: space-evenly;
-                }
+                padding-left: 30px;
+            }
+                
+            .h2{
+                padding-top: 60px;
+            }  
                 
             .image-container img {
                 width:250px;
@@ -204,20 +209,27 @@ section{
             }
                 
             }
-           
-            .location{
+            .locction{
                 .map{
-                    @include flexCenter(row, center,center);
-                    padding-bottom: 50px;
+                    img{
+                     width: 250px;
+
+                    }
+                }
+                .h3{
+                    color:#E86424;
                 }
             }
+           
+           
+            
             
 
             
 footer{
     background-color: $quaternary-color;
     width: 100%;
-    height: 250px;
+    height: auto;
     padding: 40px;
     color: white;
     .social-media{
