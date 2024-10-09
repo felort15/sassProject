@@ -71,7 +71,7 @@ section h2 {
   display: flex;
   flex-direction: column;
 }
-section .health-care h2, section .furniture h2 {
+section .health-care h2 {
   font-weight: 300;
   padding-left: 60px;
   padding-bottom: 60px;
@@ -88,86 +88,121 @@ section .card-section {
   row-gap: 80px;
 }
 section .card-section .product-card {
-  width: 40vh;
+  width: 35vh;
   height: auto;
   background-color: #FFDAC6;
   color: #7C6A0A;
   padding: 20px;
   border-radius: 10px;
 }
-section .card-section .icon {
-  width: auto;
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 10px;
-}
-section .card-section .icon svg {
-  width: 28px;
-  height: 28px;
-}
-section .earth {
-  display: flex;
-  align-items: center;
-}
-section .earth div:first-child {
-  margin-right: 20px;
-}
-section .earth img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-section .earth p {
-  color: #E86424;
-  /* orange color */
-  font-size: 18px;
-  font-weight: bold;
-  text-align: justify;
-}
-section .product-image {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-section .product-image img {
+section .card-section .product-card img {
   width: 35vh;
   height: 35vh;
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.furniture .product-card {
-  background-color: #fa9500;
-  color: white;
-}
-
-.image-container {
+section .icon {
+  width: 35vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 80px;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+section .icon svg {
+  width: 28px;
+  height: 28px;
 }
 
-.image-container img {
-  width: 280px;
-  height: 280px;
+section .furniture-section {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+  row-gap: 80px;
+}
+section .furniture-card {
+  width: 35vh;
+  height: auto;
+  background-color: #babd8d;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+section .furniture-card img {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section h2 {
+  font-weight: 300;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+section .mision-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section .earth {
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #E86424;
+}
+section .innvotion {
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #E86424;
+}
+section .image-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section .image-container img {
+  width: 250px;
+  height: auto;
   margin: 10px;
-  border-radius: 25px;
+  border-radius: 35px;
+}
+
+.location-map {
+  width: 100%;
+  height: auto;
+  padding: 20px;
 }
 
 footer {
-  color: #7C6A0A;
   background-color: #fa9500;
   width: 100%;
   height: 250px;
-  padding-left: 40px;
+  padding: 40px;
+  color: white;
 }
-
-.social-media {
+footer .social-media {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 25px;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
