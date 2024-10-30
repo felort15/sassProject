@@ -1,0 +1,264 @@
+$primary-color: #FFEFE7;
+$secondary-color: #FFDAC6;
+$tertiary-color: #babd8d;
+$quaternary-color:#fa9500;
+$primary-text-color: #7C6A0A;
+$font-stack: 'IBM Plex Sans', sans-serif;
+$paragraph-size:1em;
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    font-family: $font-stack; 
+nav {
+            color: $primary-text-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    height: 100px;
+            
+p{
+    font-size: 2rem;
+    padding: 30px;
+}
+    
+    
+.icons {
+    display: flex;
+    gap: 5px;
+    
+button {
+    background: none;
+    border-style: none;
+}
+}
+}
+}
+article{
+    
+    width: auto;
+    background-color: $primary-color;
+    color: $primary-text-color;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    h1{
+       font-size: 2em;
+    }
+    p{
+      font-size: $paragraph-size;  
+    }
+    button{
+        width:12vw;
+        background: $quaternary-color;
+        border-style: none;
+        border-radius: 35px;
+        color:white;font-size: 1em ;
+    }
+        img {
+            width: 20vw;
+            height: 65vh;
+            border-radius: 15px;
+            padding-top: 5px;
+            justify-content: center;
+
+        }
+ }
+ section{
+    width: auto;
+    height: auto;
+    padding: 60px;
+h2 {
+    color:$primary-text-color;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+ }
+.health-care{
+    h2{
+        font-weight: 300;
+        padding-left: 60px;
+        padding-bottom: 60px;   
+    }
+}
+.card-section{
+   display: flex;
+   width: auto;
+   height: auto;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   column-gap: 120px; 
+   row-gap: 80px;
+.product-card{
+    width: 35vh;
+    height: auto;
+    background-color: $secondary-color;
+    color: $primary-text-color;
+    padding: 20px;
+    border-radius: 10px;
+}
+.product-card img{
+    width: 35vh;
+    height: 35vh;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+}
+.icon{
+    width: 35vh;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+svg{
+   width: 28px;
+   height: 28px;
+}
+}
+}
+
+section{
+.furniture-section{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 120px;
+    row-gap: 80px;
+    }
+    .furniture-card {
+        width: 35vh;
+        height: auto;
+        background-color: $tertiary-color;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .furniture-card img {
+        width: 35vh;
+        height: 35vh;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    
+    
+    h2 {
+        font-weight: 300;
+        padding-left: 60px;
+        padding-bottom: 60px;
+        }
+}
+section{
+              .mision-section {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            .earth{
+                width: 40vh;
+                height: 40vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                color:#E86424
+            }
+            .innvotion {
+                width: 40vh;
+                height: 40vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 60px;
+                gap: 30px;
+                color: #E86424
+            }
+            .image-container{
+                display: flex;
+                justify-content: space-evenly;
+                width: 100%;
+                flex-wrap: wrap;
+                padding-left: 30px;
+            }
+                
+            .h2{
+                padding-top: 60px;
+            }  
+                
+            .image-container img {
+                width:250px;
+                height: auto;
+                margin: 10px;
+                border-radius: 35px;
+            }
+                
+            }
+            .locction{
+                .map{
+                    img{
+                     width: 250px;
+
+                    }
+                }
+                .h3{
+                    color:#E86424;
+                }
+            }
+           
+           
+            
+            
+
+            
+footer{
+    background-color: $quaternary-color;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    color: white;
+    .social-media{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height:auto;
+        gap: 25px;
+        color: white;
+        
+    }
+}
+
+
+    
+
+
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+
+
